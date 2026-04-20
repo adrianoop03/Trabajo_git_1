@@ -2,8 +2,8 @@ class vehiculo:
     def __init__(self,marca,nombre,modelo,cilindrada,problema) -> None:
         self.marca=marca
         self.marca=nombre
-        self.modelo=modelo
-        self.cilindrada=cilindrada
+        int.modelo=modelo
+        float.cilindrada=cilindrada
         self.problema=problema
         pass
 
@@ -17,4 +17,4 @@ class camioneta(vehiculo):
         super().__init__(marca, nombre, modelo,cilindrada, problema)
         pass
 
-auto_uno=Auto("chevrolet","corsa","2004","1.4","correa de distribucion cortada y arbol de levas posiblemente doblado ")
+auto_uno=Auto("chevrolet","corsa",2004,1.4,"correa de distribucion cortada y arbol de levas posiblemente doblado ")
